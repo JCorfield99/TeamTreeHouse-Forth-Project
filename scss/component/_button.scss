@@ -10,29 +10,42 @@
     padding: $gutter 0;
     text-transform: uppercase;
     border-radius: 5px;
+    transition: .5s;
+}
+  
+.default {
+    background-color: $button-default;
     &:hover {
         background-color: lighten($button-default, 15%);
     }
 }
   
-.default {
-    background-color: $button-default;
-}
-  
 .error {
     background-color: $button-error;
+    &:hover {
+        background-color: lighten($button-error, 15%);
+    }
 }
   
 .info {
     background-color: $button-info;
+    &:hover {
+        background-color: lighten($button-info, 15%);
+    }
 }
   
 .success {
     background-color: $button-success;
+    &:hover {
+        background-color: lighten($button-success, 15%);
+    }
 }
   
 .warning {
     background-color: $button-warning;
+    &:hover {
+        background-color: lighten($button-warning, 15%);
+    }
 }
 
 @media (min-width: $breakpoint) {
