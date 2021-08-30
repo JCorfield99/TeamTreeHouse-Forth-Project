@@ -5,6 +5,7 @@ $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 $color-text: #777;
 
+$button-default: $color-secondary;
 $button-error: #e4757a;
 $button-info: #927bc1;
 $button-success: #63cc82;
@@ -22,8 +23,7 @@ $font-size-quote: 1.5em;
 
 $font-stylei: italic;
 
-// ----- Flex ------------------------------
-$col: column;
-
-// ----- Media Query ------------------------------
+// ----- Layout ------------------------------
 $breakpoint: 768px;
+$max-width: 1400px;
+$gutter: 10px;
