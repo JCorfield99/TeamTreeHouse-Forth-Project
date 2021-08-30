@@ -371,4 +371,145 @@ template {
   display: none;
 }
 
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+/* line 5, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+* {
+  font-family: "Lato", sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+/* line 11, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+p {
+  line-height: 1.45em;
+}
+
+/* line 15, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+a {
+  text-decoration: none;
+}
+
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 23, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 28, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 33, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 38, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/base/_typography.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+/* line 5, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.container {
+  padding: 0 10px;
+}
+
+/* line 9, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+}
+
+/* line 15, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* line 23, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-1 {
+  background-color: #927bc1;
+}
+
+/* line 27, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
+/* line 31, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-3 {
+  background-color: #deb2ee;
+}
+
+/* line 35, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-4 {
+  background-color: #7ee6fd;
+}
+
+/* line 39, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-5 {
+  background-color: #88d9a0;
+}
+
+/* line 43, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-6 {
+  background-color: #4da2bb;
+}
+
+/* line 47, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-7 {
+  background-color: #ec9fa3;
+}
+
+/* line 51, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-8 {
+  background-color: #fd9f85;
+}
+
+/* line 55, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-9 {
+  background-color: #e4757a;
+}
+
+/* line 59, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-10 {
+  background-color: #63cc82;
+}
+
+/* line 63, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-11 {
+  background-color: #51ddfc;
+}
+
+/* line 67, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.theme.col-12 {
+  background-color: #80e8d1;
+}
+
+/* line 71, ../TeamTreeHouse/TeamTreeHouse-Forth-Project/scss/component/_grid.scss */
+.card {
+  flex-basis: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

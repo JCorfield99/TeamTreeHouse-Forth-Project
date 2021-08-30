@@ -2,5 +2,28 @@
 $white: #fff;
 
 $color-primary: #58e1c1;
-$color-secondary: #777;
-$color-accent: #51ddfc;
+$color-secondary: #51ddfc;
+$color-text: #777;
+
+$button-error: #e4757a;
+$button-info: #927bc1;
+$button-success: #63cc82;
+$button-warning: #fd7856;
+
+// ----- Typography ------------------------------
+$sans-serif: 'Lato', sans-serif;
+
+$line-height-primary: 1.45em;
+
+$weight-light: 300;
+$weight-heavy: 700;
+
+$font-size-quote: 1.5em;
+
+$font-stylei: italic;
+
+// ----- Flex ------------------------------
+$col: column;
+
+// ----- Media Query ------------------------------
+$breakpoint: 768px;
